@@ -29,7 +29,7 @@ yo lwc-app
 
 ## License
 
-MIT © [Reid Efford &amp; Jamie Smith](https://jsmith.dev)
+MIT © [Reid Efford](https://github.com/effordDev) &amp; [Jamie Smith](https://jsmith.dev)
 
 
 [npm-image]: https://badge.fury.io/js/generator-lwc-app.svg

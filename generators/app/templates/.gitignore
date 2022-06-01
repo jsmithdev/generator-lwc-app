@@ -1,0 +1,17 @@
+# dist content gets built by the environment at build time
+dist
+
+.sfdx/sfdx-config.json
+localhost.pem
+localhost-key.pem
+
+logs
+*.log
+*-debug.log
+*-error.log
+
+node_modules
+*.tmp
+
+scratchpad
+todo.txt

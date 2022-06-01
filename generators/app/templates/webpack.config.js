@@ -13,23 +13,15 @@ const CopyPlugin = require('copy-webpack-plugin');
 const { version } = require('./package.json');
 console.log(`Version: ${version}`);
 
-const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development';
-
-if (process.env.NODE_ENV !== 'production') {
-	require('dotenv').config();
-}
-
-console.log('Webpack config env: ', process.env.NODE_ENV);
-console.log('Webpack config mode: ', mode);
-
-const app = [
-	{ from: 'src/resources/', to: 'resources/' },
+const resources = [
+	//{ from: 'src/resources/', to: 'resources/' },
 	{ from: 'src/index.css', to: 'index.css' },
 	{ from: 'src/manifest.json', to: 'manifest.json' }
 ];
 
 module.exports = {
-	mode,
+
+	mode: 'production',
 
 	entry: {
 		app: './src/index.js'

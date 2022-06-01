@@ -1,10 +1,6 @@
 # generator-lwc-app
 
-> A web app generator for lightning web components (LWC)
-
-🚧 Work in progress 🚧
-
-> Note: to test local during development, run `npm link`
+A yeoman generator to easily create an LWC PWA (Lightning Web Component based Progressive Web App)
 
 ## Installation
 
@@ -20,17 +16,9 @@ Then generate your new project:
 yo lwc-app
 ```
 
-## Getting To Know Yeoman
-
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
-
 ## License
 
-MIT © [Reid Efford](https://github.com/effordDev) &amp; [Jamie Smith](https://jsmith.dev)
-
+[MIT License](./LICENSE)
 
 [npm-image]: https://badge.fury.io/js/generator-lwc-app.svg
 [npm-url]: https://npmjs.org/package/generator-lwc-app

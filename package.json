@@ -1,22 +1,22 @@
 {
   "name": "generator-lwc-app",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A web app generator for lightning web components (LWC)",
   "homepage": "https://github.com/jsmithdev/generator-lwc-app",
   "author": {
-    "name": "Reid Efford & Jamie Smith",
-    "email": "gen@jsmith.dev",
-    "url": "https://jsmith.dev"
+    "name": "jsmithdev",
+    "email": "lwc-app@jsmith.dev",
+		"url": "https://github.com/jsmithdev/generator-lwc-app"
   },
   "files": [
     "generators"
   ],
   "main": "generators/index.js",
   "keywords": [
+    "yeoman-generator",
     "lwc",
     "app",
-    "generator",
-    "yeoman-generator"
+    "generator"
   ],
   "devDependencies": {
     "yeoman-test": "^1.7.0",
@@ -77,6 +77,9 @@
     "pretest": "eslint .",
     "test": "jest"
   },
-  "repository": "jsmithdev/generator-lwc-app",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jsmithdev/generator-lwc-app"
+	},
   "license": "MIT"
 }

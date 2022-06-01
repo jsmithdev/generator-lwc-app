@@ -4,13 +4,15 @@ A yeoman generator to easily create an LWC PWA (Lightning Web Component based Pr
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-lwc-app using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+Have [node.js](https://nodejs.org/) installed
+
+To install [Yeoman](http://yeoman.io) and generator-lwc-app run:
 
 ```bash
 npm install -g yo generator-lwc-app
 ```
 
-Then generate your new project:
+Then to generate your new project:
 
 ```bash
 yo lwc-app

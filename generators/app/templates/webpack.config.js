@@ -14,7 +14,7 @@ const { version } = require('./package.json');
 console.log(`Version: ${version}`);
 
 const resources = [
-	//{ from: 'src/resources/', to: 'resources/' },
+	{ from: 'src/resources/', to: 'resources/' },
 	{ from: 'src/index.css', to: 'index.css' },
 	{ from: 'src/manifest.json', to: 'manifest.json' }
 ];

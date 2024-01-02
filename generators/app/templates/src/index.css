@@ -17,6 +17,11 @@ html {
 	background: var(--color-primary);
 }
 
+body {
+	overflow: hidden;
+	margin: 0px;
+}
+
 a {
 	color: var(--color-quaternary);
 }

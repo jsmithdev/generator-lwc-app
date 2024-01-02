@@ -1,6 +1,6 @@
 {
   "name": "generator-lwc-app",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A yeoman generator to easily create an LWC PWA (Lightning Web Component based Progressive Web App)",
   "homepage": "https://github.com/jsmithdev/generator-lwc-app",
   "author": {
